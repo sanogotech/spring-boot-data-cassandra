@@ -16,6 +16,12 @@ DB Client Tools
 </dependency>
 
  ```
+ * application.proproties
+ ```
+spring.data.cassandra.keyspace-name=bezkoder
+spring.data.cassandra.contact-points=127.0.0.1
+spring.data.cassandra.port=9042
+```
 ## Run Spring Boot application
 ```
 mvn spring-boot:run
