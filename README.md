@@ -3,6 +3,9 @@
 For more detail, please visit:
 >  https://bezkoder.com/spring-boot-cassandra-crud/ 
 
+## Concepts
+
+![Cassandra vs SQL ](https://github.com/sanogotech/spring-boot-data-cassandra/blob/master/docsCassandra/images/sqlvsCassandra.jpg)
 
 ##  Docs
 DB Client Tools
