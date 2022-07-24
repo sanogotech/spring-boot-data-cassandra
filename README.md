@@ -3,9 +3,26 @@
 For more detail, please visit:
 >  https://bezkoder.com/spring-boot-cassandra-crud/ 
 
-## Concepts
+## Concepts -KEYVALUES Columns Sup++
+```
+Map<key,Columns> cassandra = new HashMap<>()  ???
 
+```
 ![Cassandra vs SQL ](https://github.com/sanogotech/spring-boot-data-cassandra/blob/master/docsCassandra/images/sqlvsCassandra.jpg)
+
+## KEYSPACES
+
+##  CAP Fisrt vs ACID (Insert, Update, Delete transaction consistency, isolation)
+* Perfomant en écriture et scalable (high availability)
+
+##  CQL
+
+
+## Cassandra Uni Test /  Testcontainer
+
+- https://www.baeldung.com/java-cassandra-unit  (embedded cassandra for Unit Test)
+- https://www.baeldung.com/spring-data-cassandra-test-containers
+
 
 ##  Docs
 DB Client Tools
