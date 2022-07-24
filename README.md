@@ -11,7 +11,8 @@ For more detail, please visit:
 DB Client Tools
 - https://dbeaver.com/databases/
 - https://stackoverflow.com/questions/28763294/sql-to-cassandra-data-model-structure
-- https://www.datastax.com/blog/basic-rules-cassandra-data-modeling
+- https://www.datastax.com/blog/basic-rules-cassandra-data-
+- https://www.youtube.com/watch?v=J-cSy5MeMOA
 
 ## Use Case
  * Apple  : 160 000 nodes/instances
