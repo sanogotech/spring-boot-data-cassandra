@@ -17,7 +17,11 @@ Your structure is not correct because you won't be able to express any of your 6
 The main rule of Cassandra modeling is: start from your queries and denormalize. 
 
 In your case, you would have 6 tables:
-* employee_by_phone, employee_by_location, employee_by_age and so on. http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling
+* employee_by_phone,
+*  employee_by_location, 
+*  employee_by_age and so on.
+
+http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling
 
 However if you have a lot of multi-criteria queries like these, Cassandra (Datastax Enterprise edition) has SolR extension which will let you express richer queries. In this case your model may be right.
 
