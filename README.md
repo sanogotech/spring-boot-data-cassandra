@@ -5,7 +5,7 @@ For more detail, please visit:
 
 ##  Docs
 DB Client Tools
-> https://dbeaver.com/databases/
+- https://dbeaver.com/databases/
 
 ## Configuration 
 
@@ -13,8 +13,9 @@ DB Client Tools
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-data-cassandra</artifactId>
- ```
 </dependency>
+
+ ```
 ## Run Spring Boot application
 ```
 mvn spring-boot:run
