@@ -11,6 +11,14 @@ DB Client Tools
 - https://www.datastax.com/blog/basic-rules-cassandra-data-modeling
 
 ## Use Case
+ * Apple  : 160 000 nodes/instances
+ 
+```
+- Ecommerce Search by
+- Audit logs Search by
+- Content Management search by
+
+```
 
 **(-- Application -- Queries/Use Cases  -- Data)   
 - vs  ( Data -- Queries -- Application)
