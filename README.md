@@ -1,12 +1,13 @@
 # Spring Boot Cassandra CRUD example - Restful CRUD API
 
 For more detail, please visit:
-> [Spring Boot Cassandra CRUD example using Spring Data](https://bezkoder.com/spring-boot-cassandra-crud/)
->  https://www.datastax.com/blog/basic-rules-cassandra-data-modeling
+>  https://bezkoder.com/spring-boot-cassandra-crud/ 
+
 
 ##  Docs
 DB Client Tools
 - https://dbeaver.com/databases/
+- https://www.datastax.com/blog/basic-rules-cassandra-data-modeling
 
 ## Configuration 
 
