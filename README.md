@@ -8,6 +8,7 @@ For more detail, please visit:
 Map<key,Columns> cassandra = new HashMap<>()  ???
 
 ```
+
 ![Cassandra vs SQL ](https://github.com/sanogotech/spring-boot-data-cassandra/blob/master/docsCassandra/images/sqlvsCassandra.jpg)
 
 ## KEYSPACES
