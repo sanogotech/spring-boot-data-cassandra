@@ -12,7 +12,7 @@ DB Client Tools
 
 ## Use Case
 
-Your structure is not correct because you won't be able to express any of your 6 queries :-(
+** (-- Application -- Queries/Use Cases  -- Data)    vs  ( Data -- Queries -- Application)
 
 The main rule of Cassandra modeling is: start from your queries and denormalize. 
 
