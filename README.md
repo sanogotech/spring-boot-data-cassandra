@@ -29,7 +29,8 @@ Map<key,Columns> cassandra = new HashMap<>()  ???
 DB Client Tools
 - https://dbeaver.com/databases/
 - https://stackoverflow.com/questions/28763294/sql-to-cassandra-data-model-structure
-- https://www.datastax.com/blog/basic-rules-cassandra-data-modeling
+- https://www.datastax.com/blog/basic-rules-cassandra-data-
+- https://www.youtube.com/watch?v=J-cSy5MeMOA
 
 ## Use Case
  * Apple  : 160 000 nodes/instances
@@ -41,8 +42,8 @@ DB Client Tools
 
 ```
 
-**(-- Application -- Queries/Use Cases  -- Data)   
-- vs  ( Data -- Queries -- Application)
+**(--1. Application-Queries/Use Cases 2. Model  3. -- Data Type)   
+- vs  ( 1. Data Types --2. Model Relation -- 3. Application-Queries)
 
 The main rule of Cassandra modeling is: start from your queries and denormalize. 
 
