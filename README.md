@@ -7,7 +7,34 @@ For more detail, please visit:
 ##  Docs
 DB Client Tools
 - https://dbeaver.com/databases/
+- https://stackoverflow.com/questions/28763294/sql-to-cassandra-data-model-structure
 - https://www.datastax.com/blog/basic-rules-cassandra-data-modeling
+
+## Use Case
+
+Your structure is not correct because you won't be able to express any of your 6 queries :-(
+
+The main rule of Cassandra modeling is: start from your queries and denormalize. 
+
+In your case, you would have 6 tables:
+* employee_by_phone, employee_by_location, employee_by_age and so on. http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling
+
+However if you have a lot of multi-criteria queries like these, Cassandra (Datastax Enterprise edition) has SolR extension which will let you express richer queries. In this case your model may be right.
+
+```
+1) Select employee whose phone number = something;
+
+2) Select employees who lives in 'XYZ' location;
+
+3) Select employees whose age is > 40 years ;
+
+4) Select employee whose Designation is a 'Manager' of Unit Name 'XYZ' ;
+
+5) Select employees who work for over 1o hours a day;
+
+6) Get names(not IDs) of all employees wh were working for client 'Apple';
+
+```
 
 ## Configuration 
 
