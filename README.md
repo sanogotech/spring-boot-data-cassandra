@@ -12,7 +12,8 @@ DB Client Tools
 
 ## Use Case
 
-** (-- Application -- Queries/Use Cases  -- Data)    vs  ( Data -- Queries -- Application)
+**(-- Application -- Queries/Use Cases  -- Data)   
+- vs  ( Data -- Queries -- Application)
 
 The main rule of Cassandra modeling is: start from your queries and denormalize. 
 
