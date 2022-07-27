@@ -72,6 +72,11 @@ However if you have a lot of multi-criteria queries like these, Cassandra (Datas
 6) Get names(not IDs) of all employees wh were working for client 'Apple';
 
 ```
+##  Run Docker
+
+```
+docker-compose up
+```
 
 ## Configuration 
 
