@@ -1,7 +1,9 @@
 # Spring Boot Cassandra CRUD example - Restful CRUD API
 
 For more detail, please visit:
->  https://bezkoder.com/spring-boot-cassandra-crud/ 
+>  https://bezkoder.com/spring-boot-cassandra-crud/
+
+##  Cassandra  Nosql = Key Value + Coloumn + Document
 
 ## Concepts -KEYVALUES Columns Sup++
 ```
