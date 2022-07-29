@@ -1,7 +1,9 @@
 # Spring Boot Cassandra CRUD example - Restful CRUD API
 
 For more detail, please visit:
->  https://bezkoder.com/spring-boot-cassandra-crud/ 
+>  https://bezkoder.com/spring-boot-cassandra-crud/
+
+##  Cassandra  Nosql = Key Value + Coloumn + Document
 
 ## Concepts -KEYVALUES Columns Sup++
 ```
@@ -68,6 +70,11 @@ However if you have a lot of multi-criteria queries like these, Cassandra (Datas
 
 6) Get names(not IDs) of all employees wh were working for client 'Apple';
 
+```
+##  Run Docker
+
+```
+docker-compose up
 ```
 
 ## Configuration 
