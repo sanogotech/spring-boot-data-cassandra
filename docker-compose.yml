@@ -2,6 +2,8 @@ version: "3.9"
 services:
   cassandra:
     image: cassandra:3.11.4
+    volumes:
+       - "/opt/cassandra_local:/var/lib/cassandra"
     expose:
     - 7000
     - 7001
