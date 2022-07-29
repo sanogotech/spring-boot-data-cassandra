@@ -26,8 +26,7 @@ Map<key,Columns> cassandra = new HashMap<>()  ???
 
 
 ##  Docs
-DB Client Tools
-- https://dbeaver.com/databases/
+-  https://medium.com/building-the-open-data-stack/introduction-to-apache-cassandra-the-lamborghini-of-the-nosql-world-5028b7e4f4b2
 - https://stackoverflow.com/questions/28763294/sql-to-cassandra-data-model-structure
 - https://www.datastax.com/blog/basic-rules-cassandra-data-
 - https://www.youtube.com/watch?v=J-cSy5MeMOA
