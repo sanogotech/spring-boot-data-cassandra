@@ -26,12 +26,16 @@ Map<key,Columns> cassandra = new HashMap<>()  ???
 - https://www.baeldung.com/java-cassandra-unit  (embedded cassandra for Unit Test)
 - https://www.baeldung.com/spring-data-cassandra-test-containers
 
+##  Tutorial / Cours
+
+- https://academy.datastax.com/#/search?term=cassandra
 
 ##  Docs
 -  https://medium.com/building-the-open-data-stack/introduction-to-apache-cassandra-the-lamborghini-of-the-nosql-world-5028b7e4f4b2
 - https://stackoverflow.com/questions/28763294/sql-to-cassandra-data-model-structure
 - https://www.datastax.com/blog/basic-rules-cassandra-data-
 - https://www.youtube.com/watch?v=J-cSy5MeMOA
+
 
 ## Use Case
  * Apple  : 160 000 nodes/instances
